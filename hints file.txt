@@ -1,0 +1,101 @@
+the process of findind & removing errors
+creates instance of class
+an error in a program
+run a high-level language one line at a time
+translate high-level to low-level
+program in high-level language before compilation
+object code ready to run
+specifies one step of an algorithm
+named sequence of statements
+collection of related methods
+no effect to program execution
+way of converting between data types
+running multiple tasks at the same time
+interface used in MyCreation
+part of CPU which does computing
+way of organizing data
+data type with only 2 values
+a statement which used to determine what to run
+an alternative set of code inside conditional
+way of joining several statements in sequence
+conditional statements inside conditional statements
+a variable that represents a condition or statement
+process of invoking same method that is executing
+method that invokes itself
+uses 0s & 1s to represent numbers
+placeholder for incomplete method
+code used during development but not in final
+calling method 2+ times with different parameters
+collection of values
+a value in an array
+integer value to indicate an element
+looping though elements of an array
+traversal pattern used to find element
+traversal pattern that combines elements into single value
+traversal pattern that accumulates results
+program that does same thing every time it's run
+a program that behaves differently each time it's run
+numbers that appear random but actually deterministic
+stores a value and no methods
+standard for representing characters
+object can't be modifies
+to interpret or translate string
+base of 8
+base of 16
+set of instructions that perform a task
+tokens that name language entities
+guidelines for combination of characters
+closely related to reserved words
+thing that can perform a set of activities
+features that define an object
+used to store values
+create class object in RAM
+all objects will share one value or method
+an whole number
+a decimal value
+a collection of characters
+a data type of length 1
+abbreviated program language
+start/end of code block
+aka methods
+aka functions
+to bring or carry in from an outside source
+recursive structure
+binary digit
+different programming languages
+brain of computer
+small computer network
+large computer network
+where computer stores data temporarily
+data storage
+definitions of ways a piece of computer software communicates with another
+complete and self-contained program
+computer program that enables a computer to perform a specific task
+physical components of the computer
+programming language developed in the early 1970s by Dennis Ritchie
+process of converting information obtained on a subject or unit into coded values
+instruction to a computer or device
+field of visual computing
+distinct pieces of information
+converts executable into high-level language
+reorganize the disk by putting files into contiguous order
+computer software that assists computer programmers to develop software
+means for a system to communicate with other systems
+organized list of instructions 
+interpreted programming language created by Guido
+list of commands that can be executed without user interaction
+jetbrains java ide
+jetbrains python ide
+jetbrains c++ ide
+object oriented language
+used at end of most java statements
+common type of external storage
+used as a screen
+taking in data
+putting out data
+used for errortrapping
+used to get remainder
+used for mathematical expressions
+coding
+class used for file IO
+reference to nothing
