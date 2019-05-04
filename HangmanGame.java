@@ -1,3 +1,9 @@
+/*
+   Name: Marina Semenova
+   Teacher: Valentina Krasteva
+   Date: x, x, 2019
+   Assignment: hangman game as an ISP assignment
+*/
 
 import hsa.*;
 
