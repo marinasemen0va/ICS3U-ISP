@@ -1,6 +1,5 @@
 
 import hsa.*;
-import hsa.Console; // TODO: DELETE LATER
 
 import javax.swing.JOptionPane;
 import java.awt.*;
@@ -12,19 +11,19 @@ public class HangmanGame {
     String choice = "";
     String level = "";
     String name = "";
-    String[] wordBank; // TODO: CHANGE WORD BANK TO A THEME
+    String[] wordBank; 
     int wordNumber = 0;
     String[] hints;
     String[] scores;
     String[] names;
     String[] levels;
     final String HIGH_SCORE_FILE = "high scores.txt";
-    int x; // TODO: ADDED ALLOWED?
-    int highScoreNumber = 0; // TODO: ADDED ALLOWED?
-    Color background = new Color(147, 253, 253); // TODO: ADDED ALLOWED?
+    int x; 
+    int highScoreNumber = 0; 
+    Color background = new Color(147, 253, 253);
 
     /*
-	description:
+	description: title method
     */
     private void title() {
 	c.clear();
@@ -38,7 +37,7 @@ public class HangmanGame {
 
 
     /*
-	description:
+	description: pauses the program until input
     */
     private void pauseProgram() {
 	c.println();
@@ -48,8 +47,7 @@ public class HangmanGame {
 
 
     /*
-	description:
-	variables:
+	description: intro screen method
     */
     public void splashScreen() {
 
@@ -272,8 +270,7 @@ public class HangmanGame {
 
 
     /*
-	description:
-	variables:
+	description: menu method
     */
     public void mainMenu() {
 	choice = ""; // reset
@@ -303,8 +300,7 @@ public class HangmanGame {
 
 
     /*
-	description:
-	variables:
+	description: high scores method
     */
     public void highScores() {
 	title();
@@ -329,8 +325,7 @@ public class HangmanGame {
 
 
     /*
-	description:
-	variables:
+	description: imprt files method
     */
     public void importFiles() {
 	title();
@@ -431,7 +426,7 @@ public class HangmanGame {
 
 
     /*
-	description:
+	description: instructions screen method
     */
     public void instructions() {
 	title();
@@ -445,8 +440,7 @@ public class HangmanGame {
 
 
     /*
-	description:
-	variables:
+	description: level select method
     */
     public void levelSelect() {
 	title();
@@ -470,8 +464,7 @@ public class HangmanGame {
 
 
     /*
-	description:
-	variables:
+	description: sort scores method
     */
     private int[] sortHighScores(int s, int hsn) {
 	int[] sorted = new int[hsn];
@@ -503,8 +496,7 @@ public class HangmanGame {
 
 
     /*
-	description:
-	variables:
+	description: check if guess is in the word
     */
 
     private int[] checkForLetter(String g, String w) {
@@ -527,8 +519,7 @@ public class HangmanGame {
 
 
     /*
-	description:
-	variables:
+	description: display method
     */
     public void display() {
 	// SETUP
@@ -546,11 +537,6 @@ public class HangmanGame {
 	int lettersGuessed = 0;
 	int wrongGuesses = 0;
 	final String alphabet = "abcdefghijklmnopqrstuvwxyz1";
-	// TODO: REMOVE
-	System.out.println("word: " + word);
-	System.out.println("hint: " + hint);
-	System.out.println("index: " + randIndex);
-	// TODO: REMOVE
 	title();
 	choice = "";
 	wordNumber -= 1;
@@ -582,7 +568,6 @@ public class HangmanGame {
 	    guess = "";
 	    c.println();
 	    containsLetter = false;
-	    // TODO: ERROR TRAP
 	    while (used || !aLetter || guess.length() != 1) {
 		c.setCursor(23, 1);
 		c.print("Please enter your guess" + getHint + ": ");
@@ -723,14 +708,7 @@ public class HangmanGame {
 	    {
 		c.fillRect(590, 185, 25, 25);
 	    }
-	    // TODO: DELETE LATER
-	    System.out.println ("used: " + used);
-	    System.out.println ("score: " + score);
-	    System.out.println ("wrongGuesses: " + wrongGuesses);
-	    System.out.println ("lettersGuessed: " + lettersGuessed);
-	    // TODO: DELETE LATER
 	}
-	// TODO: COMMENTS + TEST WIN OR LOSE
 	c.setColor(Color.WHITE);
 	c.drawRect(0, 0, c.maxx(), c.maxy());
 	c.setColor(Color.BLACK);
@@ -786,8 +764,7 @@ public class HangmanGame {
 
 
     /*
-	description:
-	variables:
+	description: bye method
     */
     public void goodbye() {
 	title();
@@ -807,8 +784,7 @@ public class HangmanGame {
 
 
     /*
-	description:
-	variables:
+	description: main
     */
     public static void main(String[] args) {
 	HangmanGame d = new HangmanGame();
